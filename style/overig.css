@@ -1,3 +1,33 @@
 h1 {
-    font-family: var(--font-bold);
+    font-family: var(--font-default);
+    font-size: var(--heading1);
+    color: var(--text-color-black);
+}
+
+h2 {
+    font-family: var(--font-default);
+    font-size: var(--heading2);
+    color: var(--text-color-black);
+}
+
+h3 {
+    font-family: var(--font-default);
+    font-size: var(--heading3);
+    color: var(--text-color-black);
+}
+
+p {
+    font-family: var(--font-default);
+    font-size: var(--body-text-paragraph);
+    color: var(--text-color-black);
+}
+
+a {
+    font-family: var(--font-default);
+    font-size: var(--body-text-paragraph);
+    /* color: var(--text-color-black); */
+}
+
+body {
+    background-color: var(--background-color);
 }
