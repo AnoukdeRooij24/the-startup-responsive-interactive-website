@@ -73,7 +73,6 @@ header {
     .profile-picture {
         position: absolute;
         top: 8.5em;
-        left: 0em; 
         margin: 2%;
         width: auto;
         height: 4em;
@@ -84,10 +83,10 @@ header {
         top: 9.5em;
         left: 4.5em; 
         margin: 2%;
-        padding: 2%;
+        padding: 1%;
         background-color: var(--accent-color-pink);
         color: var(--text-color-white);
-        border-radius: 2em;
+        border-radius: var(--rounded);
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
@@ -98,6 +97,16 @@ header {
         border: none;
     }
 
+
+/* CADEAU CATEGORIEEN */
+main {
+    margin-top: 6em;
+}
+
+.birthday {
+    display: flex;
+    margin-inline: auto;
+}
 
 /* CADEAU TIPS */
 
@@ -114,7 +123,6 @@ header {
         margin-top: 2%;
         margin-left: 2%;
         margin-right: 2%;
-
     }
 
     .save-button {
