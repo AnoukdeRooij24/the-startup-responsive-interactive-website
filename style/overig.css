@@ -1,3 +1,9 @@
+body {
+    background-color: var(--background-color);
+}
+
+/* ALGEMENE TEKST */
+
 h1 {
     font-family: var(--font-default);
     font-size: var(--heading1);
@@ -25,9 +31,102 @@ p {
 a {
     font-family: var(--font-default);
     font-size: var(--body-text-paragraph);
-    /* color: var(--text-color-black); */
+    color: var(--text-color-blue);
 }
 
-body {
-    background-color: var(--background-color);
+
+/* HEADER */
+
+header {
+    position: relative;
+    margin-top: 0%;
 }
+
+    .logo {
+        margin: 1%;
+        width: auto; 
+        height: 4.5em;
+    }
+
+    .button-gesaved {
+        position: absolute;
+        top: 3em;
+        left: 17em;
+        border: none;
+        background-color: var(--background-color);
+        margin: 2%;
+        width: auto;
+        height: 2.2em;
+    }
+
+    .button-profile {
+        position: absolute;
+        top: 3em;
+        left: 20em; 
+        border: none;
+        background-color: var(--background-color);
+        margin: 2%;
+        width: auto;
+        height: 2.2em;
+    }
+
+    .profile-picture {
+        position: absolute;
+        top: 8.5em;
+        left: 0em; 
+        margin: 2%;
+        width: auto;
+        height: 4em;
+    }
+
+    .friend-label {
+        position: absolute;
+        top: 9.5em;
+        left: 4.5em; 
+        margin: 2%;
+        padding: 2%;
+        background-color: var(--accent-color-pink);
+        color: var(--text-color-white);
+        border-radius: 2em;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .edit-button {
+        width: auto;
+        height: 2em;
+        background-color: transparent;
+        border: none;
+    }
+
+
+/* CADEAU TIPS */
+
+.cadeau {
+    background-color: var(--background-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    width: 6.8em;
+}
+
+    .cadeau-picture {
+        width: auto;
+        height: 6.4em;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+
+    .save-button {
+        position: absolute;
+        top: 3%;
+        right: 3%; 
+        border: none;
+        background-color: transparent;
+        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    }
+
+    .cadeau-text {
+        text-align: center;
+        margin: 5%;
+    }

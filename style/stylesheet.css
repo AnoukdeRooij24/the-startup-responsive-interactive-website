@@ -54,6 +54,7 @@
         --accent-color-pink: #882B7D;
     
     /* blue */
+        --text-color-blue: #086387;
         --accent-color-blue: #086387;
     
         
@@ -77,5 +78,4 @@
         /* decoration */
         --rounded: 1em;
         --border: 2px;
-    
     }
