@@ -1,0 +1,23 @@
+.chat-screen{
+    background-color: var(--accent-color-gray);
+    overflow: scroll;
+    p{
+        padding: 7px;
+        min-height: 35px; 
+        max-width: 300px;
+        border-radius: 30px;
+        text-align: center;
+    }
+}
+
+.bot {
+    text-align: left;
+    background-color: var(--background-color);
+    color: var(--text-color-black);
+}
+
+.other {
+    text-align: right;
+    background-color: var(--background-color);
+    color: var(--text-color-black); 
+}

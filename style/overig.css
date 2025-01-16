@@ -1,5 +1,6 @@
 body {
     background-color: var(--background-color);
+    position: relative;
 }
 
 /* ALGEMENE TEKST */
@@ -48,10 +49,14 @@ header {
         height: 4.5em;
     }
 
-    .button-gesaved {
+    .profile-saved-buttons {
         position: absolute;
         top: 3em;
-        left: 17em;
+        right: 5%;
+        width: 6em;
+    }
+
+    .button-gesaved {
         border: none;
         background-color: var(--background-color);
         margin: 2%;
@@ -60,9 +65,6 @@ header {
     }
 
     .button-profile {
-        position: absolute;
-        top: 3em;
-        left: 20em; 
         border: none;
         background-color: var(--background-color);
         margin: 2%;
@@ -70,6 +72,7 @@ header {
         height: 2.2em;
     }
 
+    
     .profile-picture {
         position: absolute;
         top: 8.5em;
@@ -150,7 +153,6 @@ main {
         right: 3%; 
         border: none;
         background-color: transparent;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
     .save-icoon {
@@ -174,16 +176,17 @@ main {
     background: transparent;
     border: none;
     z-index: 1;
+    position: fixed;
+    bottom: 3em;
+    right: 5%;
 }
 
-/* .chatbot-button {
-    position: sticky; ;
-    right: 10%;
-    bottom: 10em;
-    border: none;
-    background-color: var(--background-color);
-    margin: 0%;
-    width: auto;
-    height: 2.2em;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-} */
+
+
+/* MEDIA QUERY CADEAUTJES GROTER */
+
+/* @media screen and (min-width: 400px) {
+    .Birthday {
+      scale: 110%;
+    }
+  } */
