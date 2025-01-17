@@ -53,7 +53,8 @@ header {
         position: absolute;
         top: 3em;
         right: 5%;
-        width: 6em;
+        width: 8em;
+        align-items: center;
     }
 
     .button-gesaved {
@@ -157,7 +158,7 @@ main {
 
     .save-icoon {
         width: auto;
-        height: 1.7em;
+        height: 2.2em;
     }
 
     .cadeau-text {
