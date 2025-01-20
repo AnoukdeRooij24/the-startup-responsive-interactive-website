@@ -43,19 +43,18 @@ header {
     margin-top: 0%;
 }
 
-    .logo {
-        margin: 1%;
-        width: auto; 
-        height: 4.5em;
-    }
+.logo {
+    margin: 1%;
+    width: auto; 
+    height: 4.5em;
+}
 
-    .profile-saved-buttons {
-        position: absolute;
-        top: 3em;
-        right: 5%;
-        width: 8em;
-        align-items: center;
-    }
+.profile-saved-buttons {
+    position: absolute;
+    top: 3em;
+    right: 5%;
+    width: 8em;
+    align-items: center;
 
     .button-gesaved {
         border: none;
@@ -64,7 +63,7 @@ header {
         width: auto;
         height: 2.2em;
     }
-
+    
     .button-profile {
         border: none;
         background-color: var(--background-color);
@@ -72,27 +71,26 @@ header {
         width: auto;
         height: 2.2em;
     }
+}
 
-    
-    .profile-picture {
-        position: absolute;
-        top: 8.5em;
-        margin: 2%;
-        width: auto;
-        height: 4em;
-    }
+.profile-picture {
+    position: absolute;
+    top: 8.5em;
+    margin: 2%;
+    width: auto;
+    height: 4em;
+}
 
-    .friend-label {
-        position: absolute;
-        top: 9.5em;
-        left: 4.5em; 
-        margin: 2%;
-        padding: 1%;
-        background-color: var(--accent-color-pink);
-        color: var(--text-color-white);
-        border-radius: var(--rounded);
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
+.friend-label {
+    position: absolute;
+    top: 9.5em;
+    left: 4.5em; 
+    margin: 2%;
+    padding: 1%;
+    background-color: var(--accent-color-pink);
+    color: var(--text-color-white);
+    border-radius: var(--rounded);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     .edit-button {
         width: auto;
@@ -100,6 +98,8 @@ header {
         background-color: transparent;
         border: none;
     }
+}
+
 
 
 /* CADEAU CATEGORIEEN */
@@ -139,33 +139,31 @@ main {
     border-radius: var(--rounded);
 }
 
-    .cadeau-picture {
-        width: auto;
-        height: 6.4em;
-        margin-top: 2%;
-        margin-left: 2%;
-        margin-right: 2%;
-        border-radius: var(--rounded);
-    }
+.cadeau-picture {
+    width: auto;
+    height: 6.4em;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: var(--rounded);
+}
 
-    .save-button {
-        position: absolute;
-        top: 3%;
-        right: 3%; 
-        border: none;
-        background-color: transparent;
-    }
-
+.save-button {
+    position: absolute;
+    top: 3%;
+    right: 3%; 
+    border: none;
+    background-color: transparent;
     .save-icoon {
         width: auto;
         height: 2.2em;
     }
+}
 
-    .cadeau-text {
-        text-align: center;
-        margin: 5%;
-    }
-
+.cadeau-text {
+    text-align: center;
+    margin: 5%;
+}
 
 
 /* FOOTER */
