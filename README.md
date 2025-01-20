@@ -15,7 +15,7 @@ Bij milledoni komen mensen om een passend en persoonlijk cadeautje te vinden voo
 
 ## Code conventies
 ### HTML
-In mijn HTML behoud ik consistentie door duidelijk mijn code in te laten springen. Tussen verschillende articles in een section (en bij andere verschillende elementen die onder/in een andere groep staan) laat ik een witregel om duidelijk te maken dat de elementen niet in elkaar overlopen. <br>
+In mijn HTML behoud ik consistentie door duidelijk mijn code in te laten springen. Tussen verschillende articles in een section (en bij andere verschillende elementen die in een andere groep staan) laat ik een witregel om duidelijk te maken dat de elementen niet in elkaar overlopen. <br>
 ![image](https://github.com/user-attachments/assets/60afbca1-51e7-4c87-8801-8e1667157b9a) <br>
 De block elementen (zoals een button) begin ik allemaal op een nieuwe regel en de inline elementen (zoals een a) schrijf ik allemaal op een regel.  <br>
 ![image](https://github.com/user-attachments/assets/70f9da29-ade9-4ae1-86c8-17e5875d8a46)
