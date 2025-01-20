@@ -22,9 +22,7 @@ De block elementen (zoals een button) begin ik allemaal op een nieuwe regel en d
 
 ### CSS
 In mijn CSS behoud ik consistentie door de zelfde volgorde aan te houden met de CSS als in de HTML. Ik werk veel met classnames omdat ik het duidelijker vind om de CSS en HTML te vinden die bij elkaar horen. Ik heb de CSS een beetje genest. Dat heb ik gedaan bij img's die in een button staan. <br>
-![image](https://github.com/user-attachments/assets/4ce1f400-260d-4a96-9bdc-6acf884c3291)
-
-
+![image](https://github.com/user-attachments/assets/61b98f8e-503a-4593-a7b2-e51df0a4c3f1)
 
 ## Bronnen
 
