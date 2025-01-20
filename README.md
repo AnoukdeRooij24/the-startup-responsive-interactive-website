@@ -29,7 +29,7 @@ In mijn CSS behoud ik consistentie door de zelfde volgorde aan te houden met de 
 ### Naamgeving
 Ik gebruik overal kebab-casing, dit omdat het een standaard CSS instelling is en omdat het voor mij duidelijker te lezen is dan wanneer je met camelCase werkt.
 Mijn naamgeving is in het engels, omdat de standaard CSS termen toch ook al in het engels zijn vind ik het handiger om in het engels door te gaan met classnames. <br>
-![image](https://github.com/user-attachments/assets/99252c7f-3c72-47d8-823e-ff11bbf43ea8)
+![image](https://github.com/user-attachments/assets/99252c7f-3c72-47d8-823e-ff11bbf43ea8) <br>
 In mijn custom properties heb ik de text sizing niet aangegeven aan de hand van de px/em maar aan de hand van standaard H1, H2 etc. grootes. <br>
 ![image](https://github.com/user-attachments/assets/ea504732-a9c3-4054-b649-60327731268d)
 
