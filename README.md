@@ -24,6 +24,16 @@ De block elementen (zoals een button) begin ik allemaal op een nieuwe regel en d
 In mijn CSS behoud ik consistentie door de zelfde volgorde aan te houden met de CSS als in de HTML. Ik werk veel met classnames omdat ik het duidelijker vind om de CSS en HTML te vinden die bij elkaar horen. Ik heb de CSS een beetje genest. Dat heb ik gedaan bij img's die in een button staan. <br>
 ![image](https://github.com/user-attachments/assets/61b98f8e-503a-4593-a7b2-e51df0a4c3f1)
 
+### Media queries
+
+### Naamgeving
+Ik gebruik overal kebab-casing, dit omdat het een standaard CSS instelling is en omdat het voor mij duidelijker te lezen is dan wanneer je met camelCase werkt.
+Mijn naamgeving is in het engels, omdat de standaard CSS termen toch ook al in het engels zijn vind ik het handiger om in het engels door te gaan met classnames. <br>
+![image](https://github.com/user-attachments/assets/99252c7f-3c72-47d8-823e-ff11bbf43ea8)
+In mijn custom properties heb ik de text sizing niet aangegeven aan de hand van de px/em maar aan de hand van standaard H1, H2 etc. grootes. <br>
+![image](https://github.com/user-attachments/assets/ea504732-a9c3-4054-b649-60327731268d)
+
+
 ## Bronnen
 
 ## Licentie
