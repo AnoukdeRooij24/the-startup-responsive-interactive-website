@@ -1,31 +1,27 @@
 @font-face {
     font-family: "Parkinsans-bold";
-    src: 
-    url("fonts/Parkinsans-Bold.ttf") format("TrueType");
+    src: url("fonts/Parkinsans-Bold.ttf") format("TrueType");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Parkinsans-Medium";
-    src: 
-    url("fonts/Parkinsans-Medium.ttf") format("TrueType");
+    src: url("fonts/Parkinsans-Medium.ttf") format("TrueType");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Parkinsans-Regular";
-    src: 
-    url("fonts/Parkinsans-Regular.ttf") format("TrueType");
+    src: url("fonts/Parkinsans-Regular.ttf") format("TrueType");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src:
-    url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType");
+    src: url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType");
     font-weight: normal;
     font-style: normal;
 }
@@ -70,9 +66,9 @@
     
         /* font-families */    
         --font-default: "Inter", sans-serif;
-        --font-regular: "Parkinsans-Regular" sans-serif;
-        --font-medium: "Parkinsans-Medium" sans-serif;
-        --font-bold: "Parkinsans-bold" sans-serif;
+        --font-regular: "Parkinsans-Regular", sans-serif;
+        --font-medium: "Parkinsans-Medium", sans-serif;
+        --font-bold: "Parkinsans-bold", sans-serif;
 
     
         /* decoration */
