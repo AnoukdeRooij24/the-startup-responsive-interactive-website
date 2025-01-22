@@ -6,6 +6,10 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 Bij milledoni komen mensen om een passend en persoonlijk cadeautje te vinden voor hun naasten. Dit kunnen ze doen door te chatten met een AI chatbot.
 [Hier kan je mijn ontwerp van de Milledoni website zien!](https://anoukderooij24.github.io/the-startup-responsive-interactive-website/index.html)
 
+## Inhoud
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
