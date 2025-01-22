@@ -4,6 +4,7 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 
 # Milledoni
 Bij milledoni komen mensen om een passend en persoonlijk cadeautje te vinden voor hun naasten. Dit kunnen ze doen door te chatten met een AI chatbot.
+[Hier kan je mijn ontwerp van de Milledoni website zien!](https://anoukderooij24.github.io/the-startup-responsive-interactive-website/index.html)
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -16,6 +17,18 @@ Bij milledoni komen mensen om een passend en persoonlijk cadeautje te vinden voo
 Op de Milledoni website kunnen bezoekers door middel van een chat functie cadeautjes filteren. Doordat ze kunnen chatten met de AI chatbot kunnen ze heel specifiek de hobby's en andere persoonlijke voorkeuren doorgeven. Aan de hand daarvan krijgen ze een lijstje met cadeautjes die goed bij ze zouden kunnen passen.
 
 ### Interactie
+https://github.com/user-attachments/assets/24d1b1ad-86c1-4b5e-be41-d2bbed11f08e
+
+Ik heb de interactie zo duidelijk mogenlijk gemaakt doormiddel van feedforward en feedback te gebruiken. <br>
+<br>
+**Feedback** (zorgt ervoor dat een gebruiker weet dat een interactie is gelukt)<br>
+* het scherm schuift omhoog als je op de eerste button klikt
+* het scherm gaat weg als je op het kruisje klikt
+* 
+**Feedforward** (zorgt ervoor dat een gebruiker weet wat die kan verwachten)<br> 
+* de button met puntjes geeft aan dat er meer komt als je op de button klikt
+* de form geeft aan waar en dat je kan typen
+* het kruisje geeft aan dat je het scherm kan wegklikken
 
 
 ## Kenmerken
