@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 
 <body> 
     <header>
-        <img class="logo" src="assets/logo-milledoni.svg" alt="logo">
+        <a href="index.html"><img class="logo" src="assets/logo-milledoni.svg" alt="logo"></a>
     
         <article class="profile-saved-buttons">
             <button class="button-gesaved">
@@ -38,7 +38,7 @@
     <main>
         <h2>Birthday ideas:</h2>
 
-        <section class="Birthday">
+        <section class="birthday">
             <article class="cadeau">
                 <img class="cadeau-picture" src="assets/cadeau.avif" alt="">
                 <button class="save-button">
@@ -245,15 +245,34 @@
         <a href="https://milledoni.nl/over-milledoni">Over ons</a>
     </footer>
 
-    <button onclick="myFunction()" class="chatbot-button">
+    <!-- <button onclick="myFunction()" class="chatbot-button">
         <img class="chatbot-icoon" src="assets/chatbot-icoon.svg" alt="">
-    </button>
+    </button> -->
 
-    <div id="chat" class="chat-screen">
+    <!-- <div id="chat" class="chat-screen">
         <p class="bot">Welcome! Who is the gift for?</p>
         <p class="other">Hi! It's for a friend</p>
         <p class="bot">Okay, how old is he/she?</p>
         <p class="other">21</p>
-    </div>
+    </div> -->
+
+
+    <button class="chat-button">
+        <img src="assets/chatbot-icoon.svg">       
+    </button>
+
+    <search class="zoeken">
+        <form>
+            <a class="close-chat" href="index.html">
+                <img src="assets/kruisje.svg">
+            </a>  
+
+            <p class="chat-text">I need a gift for.. </p>
+
+            <label>
+                <input type="search" placeholder="I'm looking for..">
+            </label>
+        </form>
+    </search>
 </body>
 </html>

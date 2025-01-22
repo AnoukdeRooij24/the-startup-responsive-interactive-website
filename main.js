@@ -1,10 +1,11 @@
-function myFunction() {
-    var x = document.getElementById("chat");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+// selecteer element
+const openChatButton = document.querySelector ('.chat-button')
+const theSearch = document.querySelector ('.zoeken')
 
+// voeg event en functie toe
+openChatButton.addEventListener('click', openSearch)
+
+function openSearch() {
+    theSearch.classList.add('toonSearch')
+}
 

@@ -1,6 +1,16 @@
 body {
     background-color: var(--background-color);
     position: relative;
+    @media (min-width: 40em) {
+        display: grid;
+        grid-template-columns: max(20em) minmax(0, 100vw); 
+        grid-gap: 0 1.5em
+    }
+}
+
+button {
+    all: unset; 
+    cursor: pointer;
 }
 
 /* ALGEMENE TEKST */
@@ -33,6 +43,7 @@ a {
     font-family: var(--font-default);
     font-size: var(--body-text-paragraph);
     color: var(--text-color-blue);
+    cursor: pointer;
 }
 
 
@@ -40,11 +51,18 @@ a {
 
 header {
     position: relative;
-    margin-top: 0%;
+    margin: 0%;
+    width: 100%;
+    @media (min-width: 40em) {
+        translate: 0%;
+        top: 0;
+        grid-column: 2/2;
+        width: minmax(0, 100vw);
+    } 
 }
 
 .logo {
-    margin: 1%;
+    margin: 1em;
     width: auto; 
     height: 4.5em;
 }
@@ -52,7 +70,7 @@ header {
 .profile-saved-buttons {
     position: absolute;
     top: 3em;
-    right: 5%;
+    right: 2%;
     width: 8em;
     align-items: center;
 
@@ -63,7 +81,7 @@ header {
         width: auto;
         height: 2.2em;
     }
-    
+
     .button-profile {
         border: none;
         background-color: var(--background-color);
@@ -75,29 +93,32 @@ header {
 
 .profile-picture {
     position: absolute;
-    top: 8.5em;
-    margin: 2%;
+    top: 11em;
+    margin: 1em;
     width: auto;
     height: 4em;
 }
 
 .friend-label {
     position: absolute;
-    top: 9.5em;
+    top: 11.5em;
     left: 4.5em; 
-    margin: 2%;
+    margin: 1em;
     padding: 1%;
     background-color: var(--accent-color-pink);
     color: var(--text-color-white);
     border-radius: var(--rounded);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-    .edit-button {
-        width: auto;
-        height: 2em;
-        background-color: transparent;
-        border: none;
+    &:hover {
+        background-color: var(--accent-color-blue);
     }
+}
+
+.edit-button {
+    width: auto;
+    height: 2em;
+    background-color: transparent;
+    border: none;
 }
 
 
@@ -105,15 +126,22 @@ header {
 /* CADEAU CATEGORIEEN */
 main {
     margin-top: 6em;
+    @media (min-width: 40em) {
+        translate: 0%;
+        top: 0;
+        grid-column: 2/2;
+        width: minmax(0, 100vw);
+    } 
 }
 
-.Birthday {
+.birthday {
     padding: 1em;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     overscroll-behavior-x: contain;
     gap: 1em;
+    margin: 1em;
 }
 
 .other {
@@ -132,7 +160,7 @@ main {
     background-color: var(--background-color);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: relative;
-    width: 7em;
+    width: 8em;
     display: grid;
     align-content: center;
     gap: 1rem;
@@ -167,25 +195,122 @@ main {
 
 
 /* FOOTER */
-
-
-
-/* BUTTON CHATBOT */
-.chatbot-button {
-    background: transparent;
-    border: none;
-    z-index: 1;
-    position: fixed;
-    bottom: 3em;
-    right: 5%;
+footer {
+    @media (min-width: 40em) {
+        translate: 0%;
+        top: 0;
+        grid-column: 2/2;
+        width: minmax(0, 100vw);
+    } 
 }
 
 
+/* BUTTON CHATBOT */
 
-/* MEDIA QUERY CADEAUTJES GROTER */
-
-/* @media screen and (min-width: 400px) {
-    .Birthday {
-      scale: 110%;
+.chat-button {
+    display: block;
+    position: fixed;
+    bottom: 3em;
+    right: .4em;
+    cursor: pointer;
+    @media (min-width: 40em) {
+        display: none;
     }
-  } */
+}
+
+.zoeken.toonSearch {
+    translate: 0% 0%;   
+}
+
+.zoeken {
+    transition: translate 1.5s;
+    position: fixed;
+    top: 25em;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    translate: 0% 100%;
+    background: var(--text-color-gray);
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    @media (min-width: 40em) {
+        translate: 0%;
+        top: 0;
+        left: 0;
+        grid-column: 1/2;
+        width: max(20em);
+    }    
+}
+
+.chat-text {
+    color: var(--text-color-accent);
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    display: block;
+    @media (min-width: 40em) {
+        display: none;
+    }
+}
+
+input[type="search"] {    
+    background:var(--background-color);
+    width: 150%;
+    height: 3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    border-radius: .75em;
+    @media (min-width: 40em) {
+        width: max(22em);
+}
+}
+
+input[type="search"], textarea {
+    outline: none;
+    border: none;
+    text-align: left;
+    font-family: var(--font-default);
+    background-size: 1.5em 1.5em;  
+    background-repeat: no-repeat;
+}  
+
+
+.zoeken input::placeholder {
+    color: var(--accent-color-black);
+}
+
+.close-chat {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    @media (min-width: 40em) {
+        display: none;
+    }
+}
+
+@keyframes move-out {
+    0% {
+        transform: translateX(0%);
+        transition-timing-function: ease;
+    }
+    100% {
+        transform: translateX(-100%);
+        transition-timing-function: ease;
+
+    }
+}
+
+@keyframes move-in {
+    0% {
+        transform: translateX(100%);
+        transition-timing-function: ease;
+
+    }
+    100% {
+        transform: translateX(0%);
+        transition-timing-function: ease;
+
+    }
+}
+
